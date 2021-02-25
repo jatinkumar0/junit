@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                 credentialsId: '0122853b-cb76-47f5-bb46-cc5a3c7649fc',
                 url: 'https://github.com/jatinkumar0/junit.git'
                 }
