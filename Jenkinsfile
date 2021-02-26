@@ -38,7 +38,7 @@ sh 'mvn package'
 }
 stage ('Deploy War File') {
 steps {
-sh "cp /root/.jenkins/workspace/navneet/gameoflife-web/target/gameoflife.war /etc/apache-tomcat-8.5.61/webapps/"
+sh "cp /root/.jenkins/workspace/junit/gameoflife-web/target/gameoflife.war /etc/apache-tomcat-8.5.61/webapps/"
 }
 }
 }
